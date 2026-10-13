@@ -1,0 +1,14 @@
+# SeoRankScale robots.txt
+# Optimized for search engine crawling
+
+User-agent: *
+
+Allow: /
+
+# Block private/system areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://seorankscale.com/sitemap.xml
